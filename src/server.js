@@ -3,6 +3,9 @@ import cors from "cors";
 import router from "./routes/index.js";
 import mongoose from "mongoose"
 import { products } from "./data/products.js";
+import dotenv from "dotenv"
+dotenv.config()
+
 
 const app = express();
 app.use(express.json());
@@ -31,4 +34,6 @@ mongoose.connect(dbURL).then((result) => {
   console.log(err);
 })
 
-app.listen(8080, () => console.log('server is up and runing'))
+const port = process.env.PORT || 8080
+
+app.listen(8080, () => console.log('server is up and runing'))  
