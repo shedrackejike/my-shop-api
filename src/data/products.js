@@ -11,7 +11,7 @@ export const products = [
         name: "iPhone  12 ",
         desc: "6.4-inch display",
         price:  699,
-        image: "https://res.cloudinary.com/dci3e5rtg/image/upload/v1684581221/OnlineShop/iphone_12_pro_cvnsyh.jpg"  
+        image: "https://res.cloudinary.com/dci3e5rtg/image/upload/v1684579790/OnlineShop/iphone_es2fjy.jpg"  
       },
       {
         id:3,
